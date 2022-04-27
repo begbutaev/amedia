@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Http\Requests\AppealRequest;
 use App\Models\Appeal;
 use Carbon\Carbon;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use function PHPUnit\Framework\isEmpty;
 
