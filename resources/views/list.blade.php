@@ -39,7 +39,7 @@
                     <td>{{ $appeal->message }}</td>
                     <td>{{ $appeal->user->name }}</td>
                     <td>{{ $appeal->user->email }}</td>
-                    <td><a href="{{ Storage::url($appeal->file)}}">Download File</a></td>
+                    <td><a href="{{ Storage::url($appeal->file)}}">View File</a></td>
                     <td>{{ $appeal->created_at }}</td>
                     <td>
                         <div class="btn-group" role="group">
